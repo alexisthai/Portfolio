@@ -35,14 +35,13 @@ table  {
 
 
 .item1
-a:visited {
-  color:gray;
-}
-
-
-.item2
 a:hover {
   color: red;
+}
+
+.item2
+a:visited {
+  color:gray;
 }
 
 
