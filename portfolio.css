@@ -22,3 +22,31 @@ table  {
     border: 2px dashed red;
     padding: 30px;
  }
+
+ .p {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+
+
+
+.item1
+a:visited {
+  color:gray;
+}
+
+
+.item2
+a:hover {
+  color: red;
+}
+
+
+.item3
+a:active {
+  color:orange;
+}
