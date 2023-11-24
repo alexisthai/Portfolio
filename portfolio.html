@@ -122,6 +122,8 @@
         <div id="demo" class="collapse">
           Yo La Tengo
         </div>
+        <button id="changeTextBtn" class="btn btn-primary">Change Text</button>
+        <p id="displayText">Current Text</p>
         <script> 
                 
             num1 = 19;
@@ -151,8 +153,19 @@
             }
             
             calculateGrade(score);
+
+            function click(displayText){
+                displayText.innerHTML = "Hello, JavaScript World!";
+            }
+            let button = document.getElementById("changeTextBtn");
+            let displayText = document.getElementById("displayText");
+            button.addEventListener("click", function() {
+                displayText.innerHTML = "Hello, Javascript World!";
+            });
             
             </script>
+
+
 
     
 
